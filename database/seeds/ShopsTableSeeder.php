@@ -18,7 +18,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => 2,
                 'subcategory_id' => 2,
                 'user_id' => 1,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/112501/150x150_square_112501907.jpg',
+                'image' => 'gdVLJJz7qkvZ797tdqwowjHeMvNPGMDeRN89sgwz.jpeg',
                 'review' => 'おいしい'
             ],
             [
@@ -27,7 +27,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => 2,
                 'subcategory_id' => 2,
                 'user_id' => 1,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/112149/150x150_square_112149283.jpg',
+                'image' => 'Yeenj2cCba5t4I3Az6MVQpE5PUWcWnwsmqMNHAWO.jpeg',
                 'review' => 'なかなか',
             ],
 
@@ -37,7 +37,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => 2,
                 'subcategory_id' => 11,
                 'user_id' => 1,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/50909/150x150_square_50909806.jpg',
+                'image' => 'u5YG4boSFMAcgSUaIzTgzHAGimY28h1r2SIqAr2Z.jpeg',
                 'review' => 'でりしゃす'
             ],
 
@@ -46,7 +46,7 @@ class ShopsTableSeeder extends Seeder
                 'address' => '京都府京都市山科区東野百拍子町25-2', 'category_id' => 2,
                 'subcategory_id' => 11,
                 'user_id' => 1,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/97717/150x150_square_97717883.jpg',
+                'image' => 'DPaa3OleiIk0XRiKfiAXKBfYDVY6y48yBg0sLH3z.jpeg',
                 'review' => '味わい深い'
             ],
 
@@ -56,7 +56,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => 2,
                 'subcategory_id' => 11,
                 'user_id' => 1,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/49393/150x150_square_49393244.jpg',
+                'image' => 'dVoOXmeComNeJXhwAvbGfp14UfiYexZxPCsnIKf9.jpeg',
                 'review' => 'すごい'
             ],
 
@@ -66,7 +66,8 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => 2,
                 'subcategory_id' => 6,
                 'user_id' => 1,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/103156/100x100_square_103156128.jpg',
+                'image' => '
+                EnM8D1oFO9MTQydZcr9ZRR6uIogOvFDEcnK9ummd.jpeg',
                 'review' => '言葉に言い表せない'
             ],
 
@@ -75,7 +76,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '2',
                 'user_id' => 2,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/27736/100x100_square_27736824.jpg',
+                'image' => '3MizFbbOTM5VFHbzYN89hc3E4oQniThPhXuYASbe.jpeg',
                 'review' => 'これぞ中華そば',
             ],
 
@@ -85,7 +86,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '9',
                 'user_id' => 2,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/109825/100x100_square_109825288.jpg',
+                'image' => 'j1WOIsoanS31iJzycmxZb9UeqhGe4QQdjVbloIPl.jpeg',
                 'review' => 'シチューです',
             ],
 
@@ -95,7 +96,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '3',
                 'user_id' => 2,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/38576/100x100_square_38576119.jpg',
+                'image' => 'lp9CmaAVzIyfp2S5s3EQzfJWufKNmxp6pCGthGn2.jpeg',
                 'review' => '濃厚な味噌つけ麺♪',
             ],
 
@@ -105,7 +106,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '10',
                 'user_id' => 3,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/99117/100x100_square_99117278.jpg',
+                'image' => 'AA0l2VFY97a9BwEo0wXYJ9Ny5MXizoIuynFz9vgm.jpeg',
                 'review' => 'ラーメンの神',
             ],
 
@@ -115,7 +116,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '5',
                 'user_id' => 3,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/61249/100x100_square_61249177.jpg',
+                'image' => '5btOemozJ5DZw6UusLGMijOXGgcG8uZxClNj1dk3.jpeg',
                 'review' => '上品な和のテイスト',
             ],
 
@@ -125,7 +126,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '4',
                 'user_id' => 3,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/44301/100x100_square_44301179.jpg',
+                'image' => 'Z2oljJmZIvCNxkniTYHfRtfXDevB66p1y3DQB5du.jpeg',
                 'review' => 'お子様入店は×',
             ],
 
@@ -135,7 +136,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '6',
                 'user_id' => 4,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/85134/100x100_square_85134868.jpg',
+                'image' => '4uJvOKtZ4dzYMMT6u3fWoeKtsI4lEsqDKUtRT2j.jpeg',
                 'review' => '久しぶりの有名店',
             ],
 
@@ -145,7 +146,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '2',
                 'subcategory_id' => '2',
                 'user_id' => 4,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/45709/100x100_square_45709034.jpg',
+                'image' => 'MXs0SanuV4Lzx9SKqupf7dnpr0oNpTSI9KoGNSZ5.jpeg',
                 'review' => 'こだわり120%',
             ],
 
@@ -155,7 +156,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => '3',
                 'subcategory_id' => '11',
                 'user_id' => 4,
-                'image' => 'https://tblg.k-img.com/restaurant/images/Rvw/108113/100x100_square_108113066.jpg',
+                'image' => 'kv2xaQozcr6F2IVeoq1rvUIwO1x0ngqcAKdvXUYl.jpeg',
                 'review' => 'キングofつけめん屋',
             ],
         ]);
