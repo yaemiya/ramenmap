@@ -66,8 +66,7 @@ class ShopsTableSeeder extends Seeder
                 'category_id' => 2,
                 'subcategory_id' => 6,
                 'user_id' => 1,
-                'image' => '
-                EnM8D1oFO9MTQydZcr9ZRR6uIogOvFDEcnK9ummd.jpeg',
+                'image' => 'EnM8D1oFO9MTQydZcr9ZRR6uIogOvFDEcnK9ummd.jpeg',
                 'review' => '言葉に言い表せない'
             ],
 

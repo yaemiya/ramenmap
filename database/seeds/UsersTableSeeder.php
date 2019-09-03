@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
             ],
             [
                 'name' => 'まま',
-                'email' => 'mama@gamail.com',
+                'email' => 'mama@gmail.com',
                 'password' => 'mama2222',
             ],
             [
