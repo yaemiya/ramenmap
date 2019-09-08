@@ -7,7 +7,7 @@ use App\Category;
 use App\SubCategory;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreateShop;
-use Carbon\Carbon;
+use Illuminate\Support\Facades\Storage;
 
 class ShopController extends Controller
 {
@@ -74,8 +74,13 @@ class ShopController extends Controller
         $shop->category_id = request('category_id');
         $shop->subcategory_id = request('subcategory_id');
         $shop->user_id = $user->id;
-        $filename = $request->file('image')->store('public/image');
-        $shop->image = basename($filename);
+
+        $uploadImg = $shop->image = $request->file('image');
+        $path = Storage::disk('s3')->putFile('/', $uploaImg, 'public');
+        $shop->image = Storage::disk('s3')->url($path);
+        // $filename = $request->file('image')->store('public/image');
+        // $shop->image = basename($filename);
+
         $shop->review = request('review');
         $shop->save();
         return redirect()->route('shop.detail', ['id' => $shop->id]);
