@@ -76,11 +76,11 @@ class ShopController extends Controller
         $shop->user_id = $user->id;
 
         $uploadImg = $shop->image = $request->file('image');
+        // ファイルのアップロード
         $path = Storage::disk('s3')->putFile('/', $uploadImg, 'public');
+        // 保存したファイルの絶対バスの取得
         $shop->image = Storage::disk('s3')->url($path);
-
-        // $filename = $request->file('image')->store('public/image');
-        // $shop->image = basename($filename);
+;
 
         $shop->review = request('review');
         $shop->save();

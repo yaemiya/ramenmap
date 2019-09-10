@@ -10,8 +10,7 @@
 <div class="card mb-3" style="width: 540;">
     <div class="row no-gutters">
         <div class="col-md-4">
-            {{-- <img src="{{ asset('storage/image/'.$shop->image) }}" class="card-img"> --}}
-            <img src="{{ Storage::disk('s3')->url($path) }}">{{ $path }}
+            <img src="{{ $shop->image }}" class="card-img">
         </div>
         <div class="col-md-8">
             <div class="card-body">
