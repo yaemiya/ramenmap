@@ -77,7 +77,7 @@ class ShopController extends Controller
 
         $uploadImg = $shop->image = $request->file('image');
         // ファイルのアップロード
-        $path = Storage::disk('s3')->putFile('/', $uploadImg, 'public');
+        $path = Storage::disk('s3')->putFile('/image', $uploadImg, 'public');
         // 保存したファイルの絶対バスの取得
         $shop->image = Storage::disk('s3')->url($path);
 ;
