@@ -75,9 +75,9 @@ class ShopController extends Controller
         $shop->subcategory_id = request('subcategory_id');
         $shop->user_id = $user->id;
 
-        $uploadImg = $shop->image = $request->file_get_contents('image');
+        $shop->image = $request->file_get_contents('image');
         // ファイルのアップロード
-        $path = Storage::disk('s3')->putFile('/', $uploadImg, 'public');
+        $path = Storage::disk('s3')->putFile('/', $shop->image, 'public');
         // 保存したファイルの絶対バスの取得
         $shop->image = Storage::disk('s3')->url($path);
 ;
